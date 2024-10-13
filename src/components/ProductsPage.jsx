@@ -182,56 +182,11 @@ const ProductsPage = () => {
                 ></div>
               </div>
 
-              {/* <div className="w-11/12 lg:w-7/12 md:w-11/12 h-[300px] md:h-auto rounded-2xl border-2 border-[#e1e3e7] flex bg-yellow-300">
-                <div className="w-full md:w-3/5 h-full">
-                  <div className="w-11/12 md:w-5/6 mx-auto mt-4 md:mt-10 pl-5 text-[#3a4353]">
-                    <motion.h2
-                      initial={{ y: -30, opacity: 0 }}
-                      animate={{ y: 0, opacity: 1 }}
-                      transition={{ duration: 0.8 }}
-                      className="text-[30px] md:text-[40px] font-bold hover:scale-105 hover:text-[#0156d7] duration-300"
-                    >
-                      Cylinders
-                    </motion.h2>
-                    <motion.p
-                      initial={{ opacity: 0 }}
-                      animate={{ opacity: 1 }}
-                      transition={{ duration: 1 }}
-                      className="text-[18px] md:text-[24px]"
-                    >
-                      Our supply and packaging options
-                    </motion.p>
-                    <hr className="mt-2" />
-                  </div>
-                  <motion.div
-                    initial={{ x: -70, opacity: 0 }}
-                    animate={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 1 }}
-                    className="w-11/12 md:w-5/6 md:mt-5 mt-2 mx-auto flex flex-wrap bg-yellow-300"
-                  >
-                    {Cylinder_List.map((c) => (
-                      <div key={c.cylinder_Id} className="">
-                        <h2 className="px-2 md:py-5 py-2 text-[20px] md:text-[26px] font-semibold hover:underline duration-300 cursor-pointer hover:text-[#0156d7] hover:scale-105">
-                          <Link to={`/product/cylinder/${c.cylinder_Id}`}>
-                            {c.name}
-                          </Link>
-                        </h2>
-                      </div>
-                    ))}
-                  </motion.div>
-                </div>
-                <div
-                  className="hidden md:block md:w-2/5 h-[100%] rounded-r-2xl bg-cover bg-center"
-                  style={{
-                    backgroundImage: `url(${assets.Product_page_cylinder})`,
-                  }}
-                ></div>
-              </div> */}
-              {/* Service section */}
               <div
                 className="w-5/6 md:w-4/6 lg:w-4/12 h-auto md:h-auto rounded-2xl bg-cover bg-center relative overflow-hidden                                                 ``"
-                style={{ backgroundImage: `url(${assets.productPage_card})` }}
+                
               >
+              {/* style={{ backgroundImage: `url(${assets.productPage_card})` }} */}
                 {/* Add a blue overlay with opacity */}
                 <div className="absolute inset-0 bg-[#0156d7] opacity-80"></div>
 
